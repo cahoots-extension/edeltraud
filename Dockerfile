@@ -18,4 +18,4 @@ WORKDIR /home/edeltraud/slurp
 EXPOSE 9091
 
 USER edeltraud
-CMD ["iojs", "server.js"
+CMD ["iojs", "server.js"]
