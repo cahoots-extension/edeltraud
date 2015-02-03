@@ -7,7 +7,7 @@ The IRC bot of the #cahoots.pw channel on irc.freenode.net
 ### Building the Docker image
 
 ```sh
-docker build -t cahoots.pw/edeltraud
+docker build -t cahoots.pw/edeltraud .
 ```
 
 ### Starting the bot
