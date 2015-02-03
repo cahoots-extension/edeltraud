@@ -4,6 +4,7 @@ MAINTAINER André König <andre.koenig@posteo.de>
 
 RUN useradd edeltraud && mkdir -p /home/edeltraud && chown -R edeltraud:edeltraud /home/edeltraud
 
+WORKDIR /home/edeltraud
 RUN git clone https://github.com/piscisaureus/slurp
 
 ENV HOME /home/edeltraud/logs
