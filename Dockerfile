@@ -10,11 +10,12 @@ RUN git clone https://github.com/piscisaureus/slurp
 ENV HOME /home/edeltraud/logs
 ENV PORT 9091
 
-ADD config.json /home/edeltraud/slurp
+ADD config.json /home/edeltraud/slurp/
 
+VOLUME /home/edeltraud/logs
 WORKDIR /home/edeltraud/slurp
 
 EXPOSE 9091
 
 USER edeltraud
-CMD "iojs server.js"
+CMD ["iojs", "server.js"
