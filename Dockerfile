@@ -1,4 +1,4 @@
-FROM iojs:onbuild
+FROM iojs:1.0.4
 
 MAINTAINER André König <andre.koenig@posteo.de>
 
@@ -12,6 +12,8 @@ ENV PORT 9091
 ADD config.json /home/edeltraud/slurp
 
 WORKDIR /home/edeltraud/slurp
+
+EXPOSE 9091
 
 USER edeltraud
 CMD "iojs server.js"
