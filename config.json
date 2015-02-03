@@ -1,0 +1,9 @@
+[
+    {
+        "key": "cahoots.pw",
+        "alias": ["edeltraud-logger"],
+        "channel": "#cahoots.pw",
+        "server": "irc.freenode.net",
+        "nick": "{edeltraud}"
+    }
+]
